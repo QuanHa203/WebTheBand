@@ -39,15 +39,27 @@
     var slideImage = document.getElementById("slider")
     var slideMainText = ["Los Angeles", "New York", "Chicago"]
     var slideSubText = ["We had the best time playing at Venice Beach!", "The atmosphere in New York is lorem ipsum.", "Thank you, Chicago - A night we won't forget."]
-    var urlSlideImage = ["url(/assets/img/bandmember.jpg)", "url(/assets/img/2.jpg)", "url(/assets/img/3.jpg)"]
 
-    
 
     var i = 0
     function changeImageAndText() {
         if(i == slideMainText.length) i = 0;
+        switch(i)
+        {
+            case 0: 
+            slideImage.classList.add("slide-img-1");
+            slideImage.classList.remove("slide-img-3");
+            break;
+            case 1: 
+            slideImage.classList.add("slide-img-2");
+            slideImage.classList.remove("slide-img-1");
+            break;
+            case 2: 
+            slideImage.classList.add("slide-img-3");
+            slideImage.classList.remove("slide-img-2");
+            break;
+        }
 
-        slideImage.style.backgroundImage = urlSlideImage[i];
         slideText1[0].innerHTML = slideMainText[i];
         slideText2[0].innerHTML = slideSubText[i];
         i++;
