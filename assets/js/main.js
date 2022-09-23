@@ -39,7 +39,7 @@
     var slideImage = document.getElementById("slider")
     var slideMainText = ["Los Angeles", "New York", "Chicago"]
     var slideSubText = ["We had the best time playing at Venice Beach!", "The atmosphere in New York is lorem ipsum.", "Thank you, Chicago - A night we won't forget."]
-    var urlSlideImage = ["url(/assets/img/1.jpg)", "url(/assets/img/2.jpg)", "url(/assets/img/3.jpg)"]
+    var urlSlideImage = ["url(/assets/img/bandmember.jpg)", "url(/assets/img/2.jpg)", "url(/assets/img/3.jpg)"]
 
     
 
