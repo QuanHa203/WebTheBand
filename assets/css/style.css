@@ -161,15 +161,15 @@ html {
 }
 
 .slide-img-1 {
-    background-image: url(/assets/img/1.jpg);
+    background-image: url(https://www.w3schools.com/w3images/la.jpg);
 }
 
 .slide-img-2 {
-    background-image: url(/assets/img/2.jpg);
+    background-image: url(https://www.w3schools.com/w3images/ny.jpg);
 }
 
 .slide-img-3 {
-    background-image: url(/assets/img/3.jpg);
+    background-image: url(https://www.w3schools.com/w3images/chicago.jpg);
 }
 
 .slider-box-text {
